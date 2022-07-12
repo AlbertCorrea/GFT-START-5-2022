@@ -1,0 +1,71 @@
+\\ Solução apresentada em algoritmo, não tive tempo para converter em C#
+
+inicio
+
+var real: i,p,med1 = 0,med2 = 0,med3,med4
+
+     vet: vetor soma[4] = {0,0,0,0}, y[4] = {0,0,0,0} de real
+
+     inteiro: x
+
+PARA x DE 1 ATE 20 FACA
+
+        escreva("Idade da pessoa: ")
+
+         leia(i)
+
+        escreva("Digite o peso da pessoa")
+
+        leia (p)
+
+FIMPARA
+
+SE i>=1 e i<=10 ENTAO
+
+   y[0]=y[0]+1
+
+   soma[0]=soma[0]+p
+
+   med1=soma[0]/y[0];
+
+FIMSE
+
+SE i>=11 e i<=20) ENTAO
+
+        y[1]=y[1]+1
+
+        soma[1]=soma[1]+p
+
+        med2=soma[1]/y[1]  
+
+FIMSE
+
+SE i>=21 e i<=30 ENTAO
+
+        y[2]=y[2]+1
+
+        soma[2]=soma[2]+p
+
+        med3=soma[2]/y[2]
+
+FIMSE
+
+SE i>=31 ENTAO
+
+        y[3]=y[3]+1
+
+        soma[3]=soma[3]+p
+
+        med4=soma[3]/y[3]  
+
+FIMSE  
+
+ESCREVA("A media dos pesos das pessoas entre 1 e 10 anos   = ",med1)
+
+ESCREVA("A media dos pesos das pessoas entre 11 e 20 anos  = ",med2)
+
+ESCREVA("A media dos pesos das pessoas entre 21 e 30 anos  = ",med3);
+
+ESCREVA("A media dos pesos das pessoas maiores ou iguais 31 anos = ",med4)
+
+fim
